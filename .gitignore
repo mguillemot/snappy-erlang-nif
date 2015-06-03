@@ -1,6 +1,5 @@
 Makefile
 ebin
-priv
 .eunit
 *.o
 *.lo

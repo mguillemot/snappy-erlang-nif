@@ -36,6 +36,13 @@
 #include <string>
 #include <vector>
 
+// Erhune:
+#ifdef _WIN64
+typedef __int64 ssize_t;
+#else
+typedef long ssize_t;
+#endif
+
 
 namespace snappy {
 
